@@ -39,7 +39,7 @@ function About() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.7 }
+      { threshold: 0.3 }
     );
     if (aboutRef.current) {
       observer.observe(aboutRef.current);
